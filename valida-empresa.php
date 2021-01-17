@@ -28,3 +28,4 @@
     } else {
         echo "Erro na consulta ao database";
     }
+?>

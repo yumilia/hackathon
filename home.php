@@ -10,7 +10,6 @@
 
     </head>
     <body>
-        <h1>Usuário autenticado<br></h1>
         <?= $_SESSION['name']?>
     </body>
 </html>

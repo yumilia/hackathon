@@ -12,7 +12,7 @@
               confirm("Cadastro realizado com sucesso!");
               window.location.href = "index.html";
             }
-            </script>
+        </script>
 </head>
 
 <div class="container-fluid">
@@ -96,44 +96,44 @@
         </nav>
         
     
-        <div class="formulario-aluno">
+        <form method="POST" action="registroEstudante.php" enctype="multipart/form-data" class="formulario-aluno">
             <div class="row">
     
                 <p class="description"> Cadastro do Estudante</p>
                 
                 <div class="mb-3" id="campoForm">
                     <label for="formGroupExampleInput" class="form-label">Nome Completo*</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Insira seu nome">
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="YouBizinho da Hackathon CCR 2021">
                 </div>
     
                 <div class="mb-3" id="campoForm">
                     <label for="formGroupExampleInput2" class="form-label">Usuário*</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Insira seu usuário">
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="@YouBizinho">
                 </div>
     
                 <div class="mb-3" id="campoForm">
                     <label for="formGroupExampleInput" class="form-label">Data de Nascimento*</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Insira sua data de nascimento">
+                    <input type="date" class="form-control" id="formGroupExampleInput" placeholder="Insira sua data de nascimento">
                 </div>
     
                 <div class="mb-3" id="campoForm">
                     <label for="formGroupExampleInput2" class="form-label">CPF*</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Insira seu CPF">
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="___.___.___-__">
                 </div>
     
                 <div class="mb-3" id="campoForm">
                     <label for="formGroupExampleInput" class="form-label">E-mail*</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Insira seu e-mail">
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="YouBizinho@ShaweeCCR.com.br">
                 </div>
     
                 <div class="mb-3" id="campoForm">
                     <label for="formGroupExampleInput2" class="form-label">Senha*</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Insira sua senha">
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="***********">
                 </div>
     
-                <button type="button" class="btn btn-primary btn-lg" id="button" onclick="confirmar()">Finalizar Cadastro</button>
+                <button type="submit" class="btn btn-primary btn-lg" id="button">Finalizar Cadastro</button>
             </div>
-        </div>
+        </form>
 
 
         <!--FOOTER-->

@@ -12,7 +12,7 @@
               confirm("Cadastro realizado com sucesso!");
               window.location.href = "index.html";
             }
-            </script>
+        </script>
 </head>
 
 <div class="container-fluid">
@@ -96,32 +96,32 @@
         </nav>
         
     
-        <div class="formulario-empresa">
+        <form class="formulario-empresa" method="POST" action="registroEmpresa.php" enctype="multipart/form-data">
             <div class="row">
     
                 <p class="description"> Cadastro da Empresa</p>
                 <div class="mb-3" id="campoForm">
                     <label for="formGroupExampleInput" class="form-label">Nome Fantasia* (30 caracteres)</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Insira seu nome fantasia">
+                    <input type="text" name="name" class="form-control" id="formGroupExampleInput" placeholder="YouBizinho da Hackathon CCR 2021">
                 </div>
 
                 <div class="mb-3" id="campoForm">
                     <label for="formGroupExampleInput2" class="form-label">CNPJ*</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Insira seu CNPJ">
+                    <input type="text" name="name" class="form-control" id="formGroupExampleInput2" placeholder="__.___.___/____-__">
                 </div>
     
                 <div class="mb-3" id="campoForm">
                     <label for="formGroupExampleInput2" class="form-label">Descrição da Empresa* (250 caracteres)</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Insira uma descrição sobre a empresa">
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Somos uma empresa...">
                 </div>
     
                 <div class="mb-3" id="campoForm">
                     <label for="formGroupExampleInput2" class="form-label">Senha*</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Insira sua senha">
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="**********">
                 </div>
 
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
                     <label class="form-check-label" for="flexCheckChecked">
                       Quero cadastrar vagas da minha empresa
                     </label>
@@ -129,7 +129,7 @@
     
                 <button type="button" class="btn btn-primary btn-lg" id="button1" onclick="confirmar()">Finalizar Cadastro</button>
             </div>
-        </div>
+        </form>
 
 
         <!--FOOTER-->
