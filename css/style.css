@@ -24,6 +24,7 @@
     border-radius: 10px;
     padding-left: 14px;
     padding-top: 34px;
+    height: 730px;
 }
 
 .form-control {
@@ -79,11 +80,20 @@
     
 }
 
-/*EXCLUIR! #item { 
+#rodape {
+    background-color: #C4C4C4;
+    border-radius: 15px;
+    width: 100%;
+    margin-left: 2px;
+    margin-top: 42px;
+    padding-left: 20px;
+    padding-top: 12px;
+    margin-bottom: 10px;
+}
 
-    color: white !important;
-    font-weight: 600 !important;
-    padding-left: 2% !important;
-
-} */
+#itemFooter {
+    color: black !important;
+    text-decoration: none;
+    font-weight: 600;
+}
 
