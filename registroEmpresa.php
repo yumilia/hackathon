@@ -5,7 +5,7 @@
     $cnpj = filter_var($_POST['cnpj'], FILTER_SANITIZE_NUMBER_INT);
     $password = md5($_POST['password']);
     $description = htmlspecialchars($_POST['descript$description'], ENT_QUOTES);
-    $logo = $_FILES['logo'];
+    // $logo = $_FILES['logo'];
 
 
     // Tratamento imagem
@@ -25,7 +25,11 @@
             // unlink($nomeFinal);
             // header("location:exibir.php");
         } else {
-            echo "Erro ao fazer upload da sua logo!";
+            $db = new db;
+            $link = $db->connect_mysql();
+            $sql = "INSERT INTO business(name, password, description, cnpj) VALUES ('$name', '$password', '$description', '$cnpj')";
+
+            mysqli_query($link, $sql) or die("Erro ao registrar a empresa!");
         }
     }
 ?>

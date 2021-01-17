@@ -12,7 +12,7 @@
               confirm("Cadastro realizado com sucesso!");
               window.location.href = "index.html";
             }
-            </script>
+        </script>
 </head>
 
 <div class="container-fluid">
@@ -96,49 +96,52 @@
         </nav>
         
     
-        <div class="formulario-empresa">
+        <form method="POST" action="registroEstudante.php" enctype="multipart/form-data" class="formulario-aluno">
             <div class="row">
     
-                <p class="description"> Cadastro da Empresa</p>
+                <p class="description"> Cadastro do Estudante</p>
                 <div class="mb-3" id="campoForm">
-                    <label for="formGroupExampleInput" class="form-label">Nome Fantasia* (30 caracteres)</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Insira seu nome fantasia">
-                </div>
-
-                <div class="mb-3" id="campoForm">
-                    <label for="formGroupExampleInput2" class="form-label">CNPJ*</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Insira seu CNPJ">
+                    <label for="formGroupExampleInput" class="form-label">Nome Completo*</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="YouBizinho da Hackathon CCR 2021">
                 </div>
     
                 <div class="mb-3" id="campoForm">
-                    <label for="formGroupExampleInput2" class="form-label">Descrição da Empresa* (250 caracteres)</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Insira uma descrição sobre a empresa">
+                    <label for="formGroupExampleInput2" class="form-label">Usuário*</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="@YouBizinho">
+                </div>
+    
+                <div class="mb-3" id="campoForm">
+                    <label for="formGroupExampleInput" class="form-label">Data de Nascimento*</label>
+                    <input type="date" class="form-control" id="formGroupExampleInput" placeholder="Insira sua data de nascimento">
+                </div>
+    
+                <div class="mb-3" id="campoForm">
+                    <label for="formGroupExampleInput2" class="form-label">CPF*</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="___.___.___-__">
+                </div>
+    
+                <div class="mb-3" id="campoForm">
+                    <label for="formGroupExampleInput" class="form-label">E-mail*</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="YouBizinho@ShaweeCCR.com.br">
                 </div>
     
                 <div class="mb-3" id="campoForm">
                     <label for="formGroupExampleInput2" class="form-label">Senha*</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Insira sua senha">
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="***********">
                 </div>
-
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                    <label class="form-check-label" for="flexCheckChecked">
-                      Quero cadastrar vagas da minha empresa
-                    </label>
-                  </div>
     
-                <button type="button" class="btn btn-primary btn-lg" id="button1" onclick="confirmar()">Finalizar Cadastro</button>
+                <button type="submit" class="btn btn-primary btn-lg" id="button">Finalizar Cadastro</button>
             </div>
-        </div>
+        </form>
 
 
         <!--FOOTER-->
 
         <div class="row" id="rodape">
             <div class="col-md-12">
-                <p><a href="#" id="itemFooter">Sobre nós</a></p>
-                <p><a href="#" id="itemFooter">Candidato</a></p>
-                <p><a href="#" id="itemFooter">Empresas parceiras</a></p>
+                <p><a href="sobre.html" id="itemFooter">Sobre nós</a></p>
+                <p><a href="logEstudante.html" id="itemFooter">Candidato</a></p>
+                <p><a href="parceria.html" id="itemFooter">Empresas parceiras</a></p>
             </div>
         </div>
 

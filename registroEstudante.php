@@ -7,7 +7,7 @@
     $password = md5($_POST['password']);
     $cpf = filter_var($_POST['cpf'], FILTER_SANITIZE_NUMBER_INT);
     $birthday = $_POST['birthday'];
-    $image = $_FILES['image'];
+    // $image = $_FILES['image'];
 
     // Tratamento imagem
     if($image != NULL) {
