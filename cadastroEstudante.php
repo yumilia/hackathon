@@ -100,7 +100,6 @@
             <div class="row">
     
                 <p class="description"> Cadastro do Estudante</p>
-                
                 <div class="mb-3" id="campoForm">
                     <label for="formGroupExampleInput" class="form-label">Nome Completo*</label>
                     <input type="text" class="form-control" id="formGroupExampleInput" placeholder="YouBizinho da Hackathon CCR 2021">
