@@ -129,7 +129,75 @@
     font-weight: 600;
 }
 
+<<<<<<< HEAD
+#faq-title {
+    position: absolute;
+    left: 3.33%;
+    right: 41.11%;
+    top: 21%;
+    bottom: 75.72%;
 
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    /* or 200% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+.faq-div {
+    margin-top: 100px;
+    height: 130px;
+    background: #E5E5E5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+.ask {
+    position: relative;
+    left: 6.85%;
+    right: 3.57%;
+    top: 7.22%;
+    bottom: 70.1%;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;    
+    line-height: 24px;
+    /* or 218% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+
+    color: rgba(44, 50, 62, 0.63);
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.answer {
+    margin: 30px 10px 5px 70px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+    /* or 150% */
+
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    letter-spacing: 0.01em;
+
+    color: rgba(44, 50, 62, 0.63);
+}
 #opcaoLogin {
     background-color: #B1CAF8;
     margin-top: 52px;
