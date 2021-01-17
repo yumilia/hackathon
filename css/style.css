@@ -20,15 +20,25 @@
 
 .formulario-aluno {
     background-color: #B1CAF8;
-    margin-top: 20px;
+    margin-top: 46px;
     border-radius: 10px;
     padding-left: 14px;
     padding-top: 34px;
     height: 730px;
 }
 
+.formulario-empresa {
+    background-color:#F3B07D;
+    margin-top: 46px;
+    border-radius: 10px;
+    padding-left: 14px;
+    padding-top: 34px;
+    height: 600px;
+}
+
 .form-control {
     background-color: #C4C4C4 !important;
+    border-radius: 8px !important;
 }
 
 .imgHeader1 {
@@ -58,6 +68,17 @@
 
 #button {
     background-color:#F89040 ;
+    width: 58%;
+    height: 46px;
+    margin-left: 18%;
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+    margin-top: 10%;
+}
+
+#button1 {
+    background-color:#B8CCE9 ;
     width: 58%;
     height: 46px;
     margin-left: 18%;
