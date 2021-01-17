@@ -112,9 +112,54 @@
     margin-bottom: 10px;
 }
 
+#rodape1 {
+    background-color: #C4C4C4;
+    border-radius: 15px;
+    width: 100%;
+    margin-left: 2px;
+    margin-top: 386px;
+    padding-left: 20px;
+    padding-top: 12px;
+    margin-bottom: 10px;
+}
+
 #itemFooter {
     color: black !important;
     text-decoration: none;
     font-weight: 600;
+}
+
+
+#opcaoLogin {
+    background-color: #B1CAF8;
+    margin-top: 52px;
+    border-radius: 10px;
+    padding-left: 14px;
+    padding-top: 10px;
+    height: 147px;
+}
+
+#button2 {
+    background-color: #F89040;
+    width: 46%;
+    height: 46px;
+    margin-left: 1%;
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+    margin-top: -4%;
+    border-radius: 10px;
+}
+
+#button1 {
+    background-color: #F89040;
+    width: 46%;
+    height: 46px;
+    margin-left: 1%;
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+    margin-top: -4%;
+    border-radius: 10px;
 }
 
